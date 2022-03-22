@@ -4,10 +4,12 @@ go 1.16
 
 require (
 	git.ooo.ua/vipcoin/chain v0.0.0-20220316134717-a5b00180e001
+	github.com/brianvoe/gofakeit/v6 v6.15.0
 	github.com/cosmos/cosmos-sdk v0.42.9
 	github.com/forbole/juno/v2 v2.0.0-20220125161451-4f6319e432a5
 	github.com/go-co-op/gocron v1.12.0
 	github.com/gogo/protobuf v1.3.3
+	github.com/jackc/pgx v3.6.2+incompatible
 	github.com/jmoiron/sqlx v1.2.1-0.20200324155115-ee514944af4b
 	github.com/lib/pq v1.10.4
 	github.com/pelletier/go-toml v1.9.4
