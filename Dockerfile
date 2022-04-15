@@ -5,7 +5,7 @@ RUN apk add git
 WORKDIR /go/src/github.com/forbole/bdjuno
 COPY . ./
 
-# See https://github.com/CosmWasm/wasmvm/releases
+# See  https://github.com/CosmWasm/wasmvm/releases
 ADD https://github.com/CosmWasm/wasmvm/releases/download/v0.16.1/libwasmvm_muslc.a /lib/libwasmvm_muslc.a
 RUN sha256sum /lib/libwasmvm_muslc.a | grep 0e62296b9f24cf3a05f8513f99cee536c7087079855ea6ffb4f89b35eccdaa66
 
